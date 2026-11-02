@@ -1,0 +1,16 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+>>> 
+=== RESTART: C:/Users/lenovo/AppData/Local/Programs/Python/Python314/day7.py ===
+FetchingNM_000546from genbank...
+ID :NM_000546.6
+Name:NM_000546
+Length:2512bp
+Organism:Homo sapiens
+Description:{record.description[:100]}...
+source [0:2512](+)
+gene [0:2512](+)
+exon [0:114](+)
+misc_feature [34:37](+)
+exon [114:216](+)
+savesNM_000546.fasta and NM_000546.gb
