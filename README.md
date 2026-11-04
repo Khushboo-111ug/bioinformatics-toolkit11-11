@@ -16,7 +16,7 @@ My Bioinformatics Learning Journey - From Day 1 to Advanced | Python for Genomic
 | Day 1-6 | Basics & Sequence Handling | Python + Biopython | ✅ Done |
 | Day 7 | GenBank File Creation | NM_000546.6 | ✅ Done |
 | Day 8 | TP53 Gene Analysis & Warning Fix | NM_000546.6 - 2512 bp, GC% 53.4% | ✅ Done |
-| Day 9 | Upcoming | - | ⏳ |
+| Day 9 |Sequence Analysis (Completed)  |  **31aa deletion** region study | ✅DONE |
 
 ### 🔬 Day 8 - TP53 Gene Analysis (Latest)
 
@@ -48,6 +48,8 @@ My Bioinformatics Learning Journey - From Day 1 to Advanced | Python for Genomic
 ```bash
 pip install biopython
 python day8.py
+
+
 DAY-9 COMPLETED✅
 # TP53 Gene Analysis Project
 
