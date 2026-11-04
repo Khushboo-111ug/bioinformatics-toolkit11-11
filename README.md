@@ -48,4 +48,27 @@ My Bioinformatics Learning Journey - From Day 1 to Advanced | Python for Genomic
 ```bash
 pip install biopython
 python day8.py
+DAY-9 COMPLETED✅
+# TP53 Gene Analysis Project
+
+**Gene:** TP53 (Tumor Protein P53) - Guardian of the Genome  
+**Organism:** Homo sapiens  
+**Analysis Period:** Day 8-10 Internship Project
+
+## 🧬 Overview
+This project focuses on the analysis of different isoforms and mutations of the TP53 gene, which is one of the most crucial genes in cancer research.
+
+## 📅 Day 8-9: Sequence Analysis (Completed)
+- **Canonical Sequence:** 393aa (UniProt P04637)
+- **Short Isoform Analysis:** Characterization of the 373aa isoform
+- **31aa deletion** region study
+- Tools Used: UniProt, NCBI, Biopython
+
+## 📅 Day 10: Poster and Presentation (Upcoming)
+- TP53 pathway visualization
+- Mutation hotspot mapping
+- Final poster design and presentation
+
+## 📁 Project Structure
+
 ⭐ Star this repo if you are also on a Bioinformatics journey!
