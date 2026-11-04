@@ -1,76 +1,63 @@
-# bioinformatics-toolkit11-11
-My Bioinformatics Learning Journey - From Day 1 to Advanced | Python for DNA, RNA & Protein Analysis
 # 🧬 bioinformatics-toolkit11-11
-My Bioinformatics Learning Journey - From Day 1 to Advanced | Python for Genomic Analysis
+
+My bioinformatics learning journey—from sequence-handling basics to genomic analysis using Python.
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Biopython](https://img.shields.io/badge/Biopython-Enabled-green)
-![Status](https://img.shields.io/badge/Day-8%20Completed-success)
+![Progress](https://img.shields.io/badge/Day-9%20Completed-success)
 
-### 👋 About This Repo
-30 Days of Bioinformatics challenge - Daily learning, coding and documenting from basic sequence handling to advanced genomic analysis.
+## 👋 About This Repository
 
-### 📅 Progress Tracker
+A 30-day bioinformatics challenge documenting daily learning, coding, and analysis—from basic sequence handling to genomic analysis.
+
+## 📅 Progress Tracker
+
 | Day | Topic | Gene / Task | Status |
 |-----|-------|-------------|--------|
-| Day 1-6 | Basics & Sequence Handling | Python + Biopython | ✅ Done |
-| Day 7 | GenBank File Creation | NM_000546.6 | ✅ Done |
-| Day 8 | TP53 Gene Analysis & Warning Fix | NM_000546.6 - 2512 bp, GC% 53.4% | ✅ Done |
-| Day 9 |Sequence Analysis (Completed)  |  **31aa deletion** region study | ✅DONE |
+| Days 1–6 | Basics and sequence handling | Python + Biopython | ✅ Done |
+| Day 7 | GenBank file creation | NM_000546.6 | ✅ Done |
+| Day 8 | TP53 gene analysis and warning fixes | NM_000546.6; 2,512 bp; 53.4% GC | ✅ Done |
+| Day 9 | TP53 sequence and isoform analysis | 393-aa canonical sequence, 373-aa short isoform, and 31-aa deletion region | ✅ Completed |
+| Day 10 | TP53 poster and presentation | Pathway visualization and mutation hotspot mapping | 🔄 Today's task |
 
-### 🔬 Day 8 - TP53 Gene Analysis (Latest)
+## ✅ Day 9 Completion Notes — TP53 Sequence Analysis
 
-**Objective:** Clean GenBank file generation without Biopython warnings.
+**Gene:** TP53 (Tumor Protein p53)  
+**Organism:** *Homo sapiens*  
+**Tools and resources:** UniProt, NCBI, and Biopython
 
-**Results:**
-- **ID:** NM_000546.6 (TP53 Tumor Protein)
-- **Length:** 2512 bp
-- **First 60 bases:** CTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGG...
-- **GC Content:** 53.4%
-- **Protein:** LKSLEPPSREQVAAGLRGHF
-- **Output File:** `day8.gb` - No Warnings, All Metrics Passed
+Completed work:
+- Reviewed the canonical TP53 protein sequence (393 amino acids; UniProt P04637).
+- Characterized the short 373-amino-acid isoform.
+- Studied the region associated with the 31-amino-acid deletion.
 
-**Key Learning & Fixes:**
-1.  `Partial codon warning` -> Solved by `trimmed_seq = seq[:len(seq) - (len(seq) % 3)]`
-2.  `molecule_type error` -> Solved by `record.annotations["molecule_type"] = "DNA"`
-3.  IDLE default path issue - files were auto-detected from Python install folder.
+## 🎯 Today's Task — Day 10
 
-**Files Added:**
-- `day8.py` - Analysis script
-- `day8.gb` - Final clean GenBank file
+- Create a visualization of the TP53 pathway.
+- Map TP53 mutation hotspots.
+- Prepare the final poster and presentation.
 
-### 🛠️ Tech Stack
+## 🔬 Previous Work — Day 8
+
+Analyzed the TP53 reference sequence NM_000546.6 and generated a clean GenBank file.
+
+- Sequence length: 2,512 bp
+- GC content: 53.4%
+- Output: `day8.gb`
+- Fixed the partial-codon warning by trimming the sequence to a complete codon.
+- Set `record.annotations["molecule_type"] = "DNA"` to resolve the molecule type error.
+
+## 🛠️ Tech Stack
+
 - Python 3.14.7
 - Biopython (SeqIO, Seq, SeqRecord)
-- Git & GitHub
+- Git and GitHub
 
-### 🚀 How to Run
+## 🚀 How to Run
+
 ```bash
 pip install biopython
 python day8.py
+```
 
-
-DAY-9 COMPLETED✅
-# TP53 Gene Analysis Project
-
-**Gene:** TP53 (Tumor Protein P53) - Guardian of the Genome  
-**Organism:** Homo sapiens  
-**Analysis Period:** Day 8-10 Internship Project
-
-## 🧬 Overview
-This project focuses on the analysis of different isoforms and mutations of the TP53 gene, which is one of the most crucial genes in cancer research.
-
-## 📅 Day 8-9: Sequence Analysis (Completed)
-- **Canonical Sequence:** 393aa (UniProt P04637)
-- **Short Isoform Analysis:** Characterization of the 373aa isoform
-- **31aa deletion** region study
-- Tools Used: UniProt, NCBI, Biopython
-
-## 📅 Day 10: Poster and Presentation (Upcoming)
-- TP53 pathway visualization
-- Mutation hotspot mapping
-- Final poster design and presentation
-
-## 📁 Project Structure
-
-⭐ Star this repo if you are also on a Bioinformatics journey!
+⭐ Star this repository if you're also on a bioinformatics journey!
