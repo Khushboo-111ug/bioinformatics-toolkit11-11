@@ -17,7 +17,7 @@ A 30-day bioinformatics challenge documenting daily learning, coding, and analys
 | Days 1–6 | Basics and sequence handling | Python + Biopython | ✅ Done |
 | Day 7 | GenBank file creation | NM_000546.6 | ✅ Done |
 | Day 8 | TP53 gene analysis and warning fixes | NM_000546.6; 2,512 bp; 53.4% GC | ✅ Done |
-| Day 9 | TP53 sequence and isoform analysis | 393-aa canonical sequence, 373-aa short isoform, and 31-aa deletion region | ✅ Completed |
+| Day 9 | TP53 sequence and isoform analysis | 393-aa canonical sequence, 373-aa short isoform, and 31-aa deletion region | ✅ Done |
 | Day 10 | TP53 poster and presentation | Pathway visualization and mutation hotspot mapping | 🔄 Today's task |
 
 ## ✅ Day 9 Completion Notes — TP53 Sequence Analysis
