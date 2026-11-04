@@ -4,7 +4,7 @@ My bioinformatics learning journey—from sequence-handling basics to genomic an
 
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
 ![Biopython](https://img.shields.io/badge/Biopython-Enabled-green)
-![Progress](https://img.shields.io/badge/Day-9%20Completed-success)
+![Progress](https://img.shields.io/badge/Day-9%20Done-success)
 
 ## 👋 About This Repository
 
@@ -18,20 +18,20 @@ A 30-day bioinformatics challenge documenting daily learning, coding, and analys
 | Day 7 | GenBank file creation | NM_000546.6 | ✅ Done |
 | Day 8 | TP53 gene analysis and warning fixes | NM_000546.6; 2,512 bp; 53.4% GC | ✅ Done |
 | Day 9 | TP53 sequence and isoform analysis | 393-aa canonical sequence, 373-aa short isoform, and 31-aa deletion region | ✅ Done |
-| Day 10 | TP53 poster and presentation | Pathway visualization and mutation hotspot mapping | 🔄 Today's task |
+| Day 10 | TP53 poster and presentation | Pathway visualization and mutation hotspot mapping | ⏳ Upcoming |
 
-## ✅ Day 9 Completion Notes — TP53 Sequence Analysis
+## ✅ Day 9 Done Notes — TP53 Sequence Analysis
 
 **Gene:** TP53 (Tumor Protein p53)  
 **Organism:** *Homo sapiens*  
 **Tools and resources:** UniProt, NCBI, and Biopython
 
-Completed work:
+Done work:
 - Reviewed the canonical TP53 protein sequence (393 amino acids; UniProt P04637).
 - Characterized the short 373-amino-acid isoform.
 - Studied the region associated with the 31-amino-acid deletion.
 
-## 🎯 Today's Task — Day 10
+## 🎯 Upcoming Task — Day 10
 
 - Create a visualization of the TP53 pathway.
 - Map TP53 mutation hotspots.
